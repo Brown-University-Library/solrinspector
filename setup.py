@@ -1,4 +1,5 @@
 import os
+__VERSION_ = '0.1.0'
 
 from setuptools import setup
 
@@ -11,7 +12,7 @@ def read(*paths):
 
 setup(
     name='sorlinspector',
-    version='0.1.0',
+    version= __VERSION__,
     description='Inspect solr fields and facets.',
     long_description=read('README.rst'),
     url='http://github.com/Brown-University-Library/solrinspector/',
