@@ -1,5 +1,5 @@
 import os
-__VERSION_ = '0.1.1'
+import solrinspector
 
 from setuptools import setup
 
@@ -12,7 +12,7 @@ def read(*paths):
 
 setup(
     name='sorlinspector',
-    version= __VERSION__,
+    version= solrinspector.__version__,
     description='Inspect solr fields and facets.',
     long_description=read('README.rst'),
     url='http://github.com/Brown-University-Library/solrinspector/',
