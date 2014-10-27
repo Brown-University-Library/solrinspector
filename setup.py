@@ -11,7 +11,7 @@ def read(*paths):
         return f.read()
 
 setup(
-    name='sorlinspector',
+    name='solrinspector',
     version= solrinspector.__version__,
     description='Inspect solr fields and facets.',
     long_description=read('README.rst'),
