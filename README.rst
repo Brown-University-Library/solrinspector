@@ -6,8 +6,9 @@ For a given SOLR_URL you will be able to view and interact with all fields that 
 
 Given a field name, you will be able to view and itneract with all facets for that field.
 
-This builds upon the great work of mysolr[1].
+This builds upon the great work of mysolr_.
 
-[1] https://github.com/RedTuna/mysolr
+.. target-notes::
+.. _mysolr : https://github.com/RedTuna/mysolr
 
 
