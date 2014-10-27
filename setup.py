@@ -1,5 +1,5 @@
 import os
-__VERSION_ = '0.1.0'
+__VERSION_ = '0.1.1'
 
 from setuptools import setup
 
